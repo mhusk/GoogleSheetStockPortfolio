@@ -8,6 +8,7 @@ function onOpen() {
   // Or DocumentApp or FormApp.
   ui.createMenu('Portfolio Analysis')
       .addItem('Run Analysis', 'PortfolioAnalysis')
+      .addItem('beta Analysis', 'PortfolioAnalysis_beta')
       .addToUi();
 }
 
